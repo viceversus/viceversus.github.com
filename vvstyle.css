@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Telex');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
 /*!
  * Bootstrap v2.0.4
@@ -134,7 +135,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Telex", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
   color: #555555;
@@ -628,7 +629,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Telex", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
@@ -3084,7 +3085,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Telex", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4164,7 +4165,7 @@ a.badge:hover {
   color: #ffffff;
 }
 .hero-unit {
-  padding: 60px;
+  padding: 30px;
   margin-bottom: 30px;
   background-color: #eeeeee;
   -webkit-border-radius: 6px;
@@ -4172,17 +4173,30 @@ a.badge:hover {
   border-radius: 6px;
 }
 .hero-unit h1 {
-  margin-bottom: 0;
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
   font-size: 60px;
   line-height: 1;
   color: inherit;
   letter-spacing: -1px;
 }
+.hero-unit h2{
+	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.hero-unit h3{
+	font-size:24px;
+}
 .hero-unit p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 20px;
   color: inherit;
+}
+.hero-unit .icons {
+  list-style-type: none;
+}
+.hero-unit li{
+  margin-top: 8px;
 }
 .pull-right {
   float: right;
@@ -4489,9 +4503,9 @@ hr {
 }
 .hero-unit {
   background-color: #fefefe;
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ,  -1px -1px 0 rgba(0, 0, 0, 0.1);
+/*  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ,  -1px -1px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ,  -1px -1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ,  -1px -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ,  -1px -1px 0 rgba(0, 0, 0, 0.1);*/
 }
 .well {
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ,  -1px -1px 0 rgba(0, 0, 0, 0.1);
@@ -4553,4 +4567,60 @@ hr {
 }
 .invisible {
   visibility: hidden;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid black;
+  color: teal;
+}
+
+.footer small {
+    float:left;
+}
+
+.container {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+.project-names{
+	border-right:1px solid darkgray;
+}
+
+#Timestampz {
+	display:none;
+}
+
+#HNClone {
+	display:none;
+}
+
+#Shrkify{
+	display:none;
+}
+
+.icons a {
+	text-decoration: none;
+}
+
+.project-description img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid darkgray;
 }

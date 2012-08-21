@@ -1,11 +1,79 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="vvstyle.css"/>
-		<script type="text/javascript" src="vvscript.js">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		<script>
+			var func = function() {};
 		</script>
+		<link rel="stylesheet" type="text/css" href="vvstyle.css"/>
 	</head>
 
 	<body>
-		<h1>Ken Shimizu</h1>
+		<div class="container">
+			<div class="content">
+				<div class="hero-unit clearfix">
+					<div class="row">
+						<div class="span5 center">
+							<h2>Hi, my name is Ken Shimizu</h2>
+							<img src="pictures/ken.jpeg" alt="It's supposed to be my picture." width="155" height="228"/>
+						</div>
+						<div class="span5">
+							<ul class>
+								I am a computer programmer and recent <a href="http://devbootcamp.com">Dev Bootcamp graduate</a> living in San Francisco, CA.
+								<li>2010 UC Berkeley graduate with a 3.7 GPA in Environmental Economics. </li>
+								<li>I focus on web development. I use Ruby, Ruby on Rails, Javascript, and have worked with some Javascript libraries. I am looking to learn C and more theoretical CS concepts over the next year.</li>
+								<li>I have a few projects linked below. Feel free to contact me!</li>
+								<li class="icons">
+									<a href="http://twitter.com/vice_versus_" target="_blank">
+								 		<img src="pictures/twitter.png" width="32px" height="32px"/>
+									</a>
+									<a href="https://github.com/viceversus" target="_blank">
+								 		<img src="pictures/github.png" width="32px" height="32px"/>
+									</a>									
+									<a href="http://www.linkedin.com/in/kenshimizu88" target="_blank">
+								 		<img src="pictures/linkedin.png" width="32px" height="32px"/>
+									</a>
+									<a href="mailto:kenshimizu88@gmail.com" target="_blank">
+								 		<img src="pictures/google.png" width="32px" height="32px"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div><!-- Row Div-->
+				</div> <!-- Hero Div -->
+				
+				<div class="hero-unit clearfix">
+					<div class="row">
+						<div class="span3 project-names">
+							<a href="" onclick="func(); return false;" class="project-name">Timestampz</a></br>
+							<a href="" onclick="func(); return false;" class="project-name">HNClone</a></br>
+							<a href="" onclick="func(); return false;" class="project-name">Shrkify</a>
+						</div>
+						<div class="span7 project-descriptions">
+							<div class="project-description" id="Timestampz">
+								<h3>Timestampz</h3>
+								<p>Timestampz is an student-tracking web application that will be used by <a href="http://www.citizenschools.org">Citizen Schools</a> in East Palo Alto, CA in the 2012-13 school year. Individual teachers can check attendance and assignments in a quick and organized manner, while Administrators can get a high level overview of each classroom's statistics updating in real-time from the dashboard. The app also allows the Excel imports for student rosters, as well as exports of data.</p>
+								<p>It is currently in production, so it is inaccessible through Heroku. However, you can fork the repository <a href="https://github.com/viceversus/Timestamp">here</a> and run a local instance to see all the features.</p>
+								<img src="pictures/timestampz.png" width="542px" height="303px"/>
+							</div>
+							<div class="project-description" id="HNClone">
+								Coming soon.
+							</div>
+							<div class="project-description" id="Shrkify">
+								Coming Soon.
+							</div>
+						</div>
+					</div><!-- Row Div-->
+				</div><!-- Projects Div -->
+			</div>
+		
+		
+			<div class="footer clear">
+				<small> Copyright 2012 Ken Shimizu </small>
+			</div>  <!-- Footer Div -->
+		</div> <!-- Container Div -->
+		
+		<script type="text/javascript" src="vvscript.js"><script type="text/javascript"
+		 src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script></script>
 	</body>
 </html>
